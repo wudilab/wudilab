@@ -18,6 +18,7 @@ namespace MainWeb
 
         protected void btnIndent_Click(object sender, EventArgs e)
         {
+            // if empty to revent error
             if (inputBox.Text.Trim() == string.Empty) return;
 
             string inputXml = inputBox.Text;
