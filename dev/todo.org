@@ -1,2 +1,9 @@
+* step by step
+** Learn URL
+   https://www.asp.net/mvc/overview/getting-started/getting-started-with-ef-using-mvc/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application
+   
+** Project 1: Database To Entity
+   D:\dev\wudilab\MainWeb\StepByStep\DatabaseToEntity
+
 * wudilab todo list for this project
   Here are todo list for wudilab repos only
