@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventWaitHanlderTest", "EventWaitHanlderTest\EventWaitHanlderTest.csproj", "{ECB0B3F7-76C7-4918-98C5-171D71A21085}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winrtTest", "winrtTest\winrtTest.csproj", "{0C582A22-AC7A-4443-823D-DC21304D7FAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECB0B3F7-76C7-4918-98C5-171D71A21085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECB0B3F7-76C7-4918-98C5-171D71A21085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECB0B3F7-76C7-4918-98C5-171D71A21085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECB0B3F7-76C7-4918-98C5-171D71A21085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C582A22-AC7A-4443-823D-DC21304D7FAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C582A22-AC7A-4443-823D-DC21304D7FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C582A22-AC7A-4443-823D-DC21304D7FAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C582A22-AC7A-4443-823D-DC21304D7FAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
