@@ -1,4 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="MainWeb.Index" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Index.aspx.cs"
+     Inherits="MainWeb.Index" ValidateRequest="false" %>
 
 <!DOCTYPE html>
 
@@ -9,7 +10,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    
+        <asp:Label ID="ErrorMessage" runat="server" Text="" Visible ="False"></asp:Label>
         <asp:Label ID="Label1" runat="server" Text="Input xml"></asp:Label>
         <br />
         <asp:TextBox ID="inputBox" runat="server" Height="198px" TextMode="MultiLine" Width="452px"></asp:TextBox>
