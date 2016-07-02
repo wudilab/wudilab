@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainWeb", "MainWeb\MainWeb.csproj", "{7977FEEA-4752-4838-A4D7-F0F41450222E}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DUALReading", "DUALReading\DUALReading.csproj", "{3468A92D-5331-4883-8305-3774A78236E1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DUALReading.Tests", "DUALReading.Tests\DUALReading.Tests.csproj", "{7A2EF4F0-8815-4A08-A110-583D95ECFC80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetcodeMain", "LeetcodeMain\LeetcodeMain.csproj", "{6B658D7D-6F24-44E9-ACFD-69D4620C1CCB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,8 +43,15 @@ Global
 		{7A2EF4F0-8815-4A08-A110-583D95ECFC80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A2EF4F0-8815-4A08-A110-583D95ECFC80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A2EF4F0-8815-4A08-A110-583D95ECFC80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B658D7D-6F24-44E9-ACFD-69D4620C1CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B658D7D-6F24-44E9-ACFD-69D4620C1CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B658D7D-6F24-44E9-ACFD-69D4620C1CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B658D7D-6F24-44E9-ACFD-69D4620C1CCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B658D7D-6F24-44E9-ACFD-69D4620C1CCB} = {86EB80E6-597F-4982-8E12-25FC32D15EBB}
 	EndGlobalSection
 EndGlobal
