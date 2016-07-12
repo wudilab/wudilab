@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace LeetcodeMain
 {
+    /// <summary>
+    /// Put Question URL: 
+    /// </summary>
     public class ProductofArrayExceptSelf238
     {
         public int[] ProductExceptSelf(int[] nums)
@@ -19,10 +22,13 @@ namespace LeetcodeMain
                 p[i] = p[i - 1] * nums[i - 1];
             }
 
-            for(int i=nums.Length-1;i>=0;i--)
-            {
+            long temp = 1;
 
+            for(int i=nums.Length-2;i>=0;i--)
+            {
+                p[i] = p[i + 1] * nums[i + 1];
             }
+
             return p;
         }
     }
