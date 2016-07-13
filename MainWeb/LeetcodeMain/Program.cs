@@ -10,8 +10,16 @@ namespace LeetcodeMain
     {
         static void Main(string[] args)
         {
-            SumofTwoIntegers s = new SumofTwoIntegers();
-            Console.WriteLine(s.GetSum(0, 0));
+            ProductofArrayExceptSelf238 s = new ProductofArrayExceptSelf238();
+            int[] nums = { 1,2,3,4 };
+
+            foreach(int n in s.ProductExceptSelf(nums))
+            {
+                Console.WriteLine(n+"\t");
+            }
+
+            //Console.WriteLine();
+            //Console.WriteLine(s.GetSum(0, 0));
         }
     }
 }
